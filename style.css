@@ -93,7 +93,7 @@
 
 input[type="button"] {
     padding: 1rem 2rem;
-    margin: 1.5rem 2rem;
+    margin: 1.5rem 0rem;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 0.5rem;
@@ -110,12 +110,40 @@ input[type="button"]:hover {
     box-shadow: 0px 0px 10px var(--color-purple);
 }
 
+#submit-form {
+    padding: 2rem;
+}
+
 #submit-form p {
-    margin-left: 2rem;
     color: var(--color-white);
 }
 
 #submit-form a {
     text-decoration: none;
     color: var(--color-purple);
+}
+
+@media only screen and (max-width: 700px) {
+    #main-container {
+        flex-wrap: wrap;
+    }
+
+    #image-container {
+        width: 100%;
+    }
+
+    #form-container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .input {
+        width: 100%;
+    }
+
+    input[type="button"] {
+        width: 100%;
+    }
 }
