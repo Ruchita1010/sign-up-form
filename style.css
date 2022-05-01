@@ -102,6 +102,7 @@ input[type="button"] {
     background-color: var(--color-purple);
     border: none;
     outline: none;
+    white-space: normal;   /* it will break the words as normal text */
 }
 
 input[type="button"]:hover {
