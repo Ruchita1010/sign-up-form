@@ -27,9 +27,11 @@
 
 #image-container {
     width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;      
+    /* display: flex or block is needed otherwise it leads to a white space below */
+    /* See: https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image 
+    OR
+    https://stackhowto.com/how-to-remove-white-space-under-an-image-using-css/ */
 }
 
 #image-container > img {
