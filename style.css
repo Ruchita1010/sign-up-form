@@ -91,7 +91,11 @@
     outline: 1px solid var(--color-purple);    
 }
 
-input[type="button"] {
+.required-field::after {
+    content: " *";
+}
+
+input[type="submit"] {
     padding: 1rem 2rem;
     margin: 1.5rem 0rem;
     font-size: 1rem;
@@ -105,7 +109,7 @@ input[type="button"] {
     white-space: normal;   /* it will break the words as normal text */
 }
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     cursor: pointer;
     transform: scale(1.02);
     box-shadow: 0px 0px 10px var(--color-purple);
