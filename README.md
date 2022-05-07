@@ -1,5 +1,5 @@
 # Sign Up Form
-A sign up form created using HTML, CSS and Javascript and is also fully responsive!
+A fully responsive sign up form created using HTML and CSS!
 
 # Learnings
 * Some cool Emmet abbreviations: Remove Tag, Wrap with abbreviation, Evaluate Math Expressions, Go to Matching pair, Tag Balancing
